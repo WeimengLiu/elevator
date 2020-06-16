@@ -44,7 +44,7 @@ public class Manager extends JFrame implements Runnable{
 	private void initialize() {
 		this.setSize(944, 573);
 		this.setContentPane(getJContainPanel());
-		this.setTitle("电梯调度");
+		this.setTitle("Elevator");
 		thread=new Thread(this);
 		for(int i=0;i<20;i++)
 		{
